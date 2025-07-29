@@ -1,0 +1,51 @@
+{
+  "git.openRepositoryInParentFolders": "always",
+  "git.autofetch": true,
+  "security.promptForLocalFileProtocolHandling": false,
+  "playwright.reuseBrowser": true,
+  "playwright.runGlobalSetupOnEachRun": false,
+  "playwright.showTrace": false,
+  "files.readonlyInclude": {
+    "**/site-packages/**": true,
+    "**/node_modules/**": true
+  },
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "strict",
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.autoImportCompletions": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.fontAliasing": "antialiased",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.ruff": "always",
+    "source.fixAll.eslint": "always",
+    "source.fixAll.format": "always",
+    "source.organizeImports": "always"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "githubPullRequests.pullBranch": "never",
+  "redhat.telemetry.enabled": false,
+  "explorer.confirmDelete": false,
+  "editor.linkedEditing": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "vite.port": 5173,
+  "editor.minimap.size": "fill",
+  "tailwind-fold.autoFold": false,
+  "files.autoSave": "afterDelay",
+  "git.replaceTagsWhenPull": true,
+  "go.toolsManagement.autoUpdate": true,
+  "terminal.integrated.scrollback": 4000,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+}
